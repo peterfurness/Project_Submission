@@ -18,10 +18,10 @@ If you are viewing this file on GitHub then please view it using the 'raw' optio
 
 Column	Variable Name
 
-1	subject 
-2	activity 
-3	tBodyAcc_mean_X 
-4	tBodyAcc_mean_Y 
+1	subject
+2	activity
+3	tBodyAcc_mean_X
+4	tBodyAcc_mean_Y
 5	tBodyAcc_mean_Z
 6	tBodyAcc_std_X
 7	tBodyAcc_std_Y
