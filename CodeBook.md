@@ -12,9 +12,9 @@ The Coursera supplied data included training and test datasets in which each obe
 
 In creating the "combined_data_tidy.txt" dataset we first selected only those feature variables which related to means or standard deviations (a total of 86 variables out of a total of 561 variables). Secondly we computed the means of each of these 86 variables for each subject/activity combination.  See the "README.md" and "run_analysis.R" files for further details of the processing carried out.
 
-The variables in "combined_data_tidy.txt" are listed below alongside the column number.  Columns 1 and 2 give subject and activity (WALKING etc) respectively.  Columns 3 to 88 give the MEANS of the 86 sensory feature variables where the mean has been taken over the particular subject/activity combination.  The names of variables are derived from those given in the "features.txt" file supplied with the Coursera project materials and further information can be found in the "README.txt" and "features_info.txt" which were also supplied with the Coursera project materials.
+The variables in "combined_data_tidy.txt" are listed below alongside the column number.  Columns 1 and 2 give subject and activity (WALKING etc) respectively.  Columns 3 to 88 give the MEANS of the 86 sensory feature variables where the mean has been taken over the particular subject/activity combination.  The names of variables, are derived from those given in the "features.txt" file supplied with the Coursera project materials and further information, including units etc, can be found in the "README.txt" and "features_info.txt" which were also supplied with the Coursera project materials.
 
-If you are viewing this file on GitHub then please view it using the 'raw' option as the following table will not display correctly otherwise!
+IF YOU ARE VIEWING THIS FILE ON GITHUB THEN PLEASE VIEW IT USING THE 'RAW' OPTION AS THE FOLLOWING TABLE WILL NOT DISPLAY CORRECTLY OTHERWISE!
 
 Column	Variable Name
 
