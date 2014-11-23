@@ -1,11 +1,10 @@
-==================================================================
 Coursera - Getting and Cleaning Data
 Codebook for dataset:  "combined_data_tidy.txt"
 Created:  22/11/2014
 
-==================================================================
-This dataset is based on Human Activity Recognition Using Smartphones Dataset Version 1.0 prepared by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. Smartlab - Non Linear Complex Systems Laboratory, Genoa, Italy www.smartlab.ws further details of which may be found in the files "README.txt" and "features_info.txt"  supplied with the Coursera project materials
-==================================================================
+
+This dataset is based on the Human Activity Recognition Using Smartphones Dataset Version 1.0 prepared by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. Smartlab - Non Linear Complex Systems Laboratory, Genoa, Italy www.smartlab.ws further details of which may be found in the files "README.txt" and "features_info.txt"  supplied with the Coursera project materials
+
 
 The datasets are based on experiments carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each subject performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, and captured 3-axial linear acceleration and 3-axial angular velocities at a constant rate of 50Hz. The experiments were video-recorded in order to label the data manually. 
 
@@ -15,13 +14,14 @@ In creating the "combined_data_tidy.txt" dataset we first selected only those fe
 
 The variables in "combined_data_tidy.txt" are listed below alongside the column number.  Columns 1 and 2 give subject and activity (WALKING etc) respectively.  Columns 3 to 88 give the MEANS of the 86 sensory feature variables where the mean has been taken over the particular subject/activity combination.  The names of variables are derived from those given in the "features.txt" file supplied with the Coursera project materials and further information can be found in the "README.txt" and "features_info.txt" which were also supplied with the Coursera project materials.
 
+If you are viewing this file on GitHub then please view it using the 'raw' option as the following table will not display correctly otherwise!
 
 Column	Variable Name
 
-1	subject
-2	activity
-3	tBodyAcc_mean_X
-4	tBodyAcc_mean_Y
+1	subject 
+2	activity 
+3	tBodyAcc_mean_X 
+4	tBodyAcc_mean_Y 
 5	tBodyAcc_mean_Z
 6	tBodyAcc_std_X
 7	tBodyAcc_std_Y
